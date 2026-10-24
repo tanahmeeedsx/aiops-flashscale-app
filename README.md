@@ -84,7 +84,3 @@ The recorded test run reached **168K load**, as demonstrated in the accompanying
 This repository is a learning and demonstration project for AIOps concepts, load testing, containerized deployment, observability, and operational automation. It is not a claim of production certification or a guarantee that the same result will be reproduced on different infrastructure.
 
 Detailed installation, deployment, and execution instructions are intentionally omitted from this project overview.
-
-## Repository
-
-[View the source repository on GitHub](https://github.com/tanahmeeedsx/aiops-flashscale-app)
