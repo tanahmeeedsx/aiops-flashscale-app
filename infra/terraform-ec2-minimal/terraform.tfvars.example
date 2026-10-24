@@ -1,0 +1,7 @@
+aws_region        = "us-west-2"
+project_name      = "flashscale-dlt"
+key_name          = "your-existing-keypair-name"
+instance_type     = "c7i.xlarge"
+allowed_ssh_cidr  = "YOUR_PUBLIC_IP/32"
+allowed_http_cidr = "YOUR_PUBLIC_IP/32"
+root_volume_size  = 40

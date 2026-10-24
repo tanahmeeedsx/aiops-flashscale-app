@@ -1,0 +1,9 @@
+.env
+generated/
+dlt/dist/
+*.pem
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+node_modules/

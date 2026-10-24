@@ -1,0 +1,32 @@
+services:
+  api:
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-us-west-2}
+        awslogs-group: /${PROJECT_NAME:-flashscale-dlt}/api
+        awslogs-create-group: "false"
+
+  worker:
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-us-west-2}
+        awslogs-group: /${PROJECT_NAME:-flashscale-dlt}/worker
+        awslogs-create-group: "false"
+
+  nginx:
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-us-west-2}
+        awslogs-group: /${PROJECT_NAME:-flashscale-dlt}/nginx
+        awslogs-create-group: "false"
+
+  redis:
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:-us-west-2}
+        awslogs-group: /${PROJECT_NAME:-flashscale-dlt}/redis
+        awslogs-create-group: "false"

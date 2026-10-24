@@ -1,0 +1,13 @@
+{
+  "name": "flashscale-worker",
+  "version": "1.0.0",
+  "description": "FlashScale Redis order worker",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.2"
+  }
+}
