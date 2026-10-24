@@ -254,4 +254,4 @@ I am Tanjim Ahmed Tomal, a Computer Engineering graduate focused on DevOps, Clou
 
 I built FlashScale as a hands-on project to bring application deployment, load testing, observability, and operational automation together in one environment.
 
-LinkedIn: [Add your LinkedIn profile URL here]
+LinkedIn: www.linkedin.com/in/tanahmedd
