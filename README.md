@@ -2,8 +2,6 @@
 
 **A hands-on AIOps and load-testing project focused on observing application behavior under heavy traffic, injecting controlled incidents, and making operational signals easier to investigate.**
 
-Repository: [tanahmeeedsx/aiops-flashscale-app](https://github.com/tanahmeeedsx/aiops-flashscale-app)
-
 ## Project Overview
 
 FlashScale combines a lightweight HTTP API, a background order-processing worker, Redis-backed queueing, an NGINX reverse proxy, and AWS observability components. The project was used to run a load test that reached **168K load in the recorded test run**. The figure refers to the load result observed in that run; it should not be interpreted as 168K concurrent users unless the test report explicitly identifies it that way.
